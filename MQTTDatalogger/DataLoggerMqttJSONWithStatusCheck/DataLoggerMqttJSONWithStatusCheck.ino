@@ -23,8 +23,8 @@
 */
 // include required libraries and config files
 #include <SPI.h>
-//#include <WiFi101.h>        // for MKR1000 modules
-#include <WiFiNINA.h>         // for MKR1010 modules and Nano 33 IoT modules
+#include <WiFi101.h>        // for MKR1000 modules
+//#include <WiFiNINA.h>         // for MKR1010 modules and Nano 33 IoT modules
 // for simplifying JSON formatting:
 #include <Arduino_JSON.h>
 // realtime clock module on the SAMD21 processor:
@@ -68,7 +68,7 @@ int sendInterval = 1;
 // time before broker should release the will, in ms:
 long int keepAliveInterval =  sendInterval * 5 * 60 * 1000;
 // initialize the light sensor:
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_700MS, TCS34725_GAIN_1X);
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_614MS, TCS34725_GAIN_1X);
 // number of successful readings that have been sent:
 unsigned long readingCount = 0;
 
