@@ -30,3 +30,6 @@ WiFiDatalogger/DataLoggerHttpClientJSON_MAC/arduino_secrets.h
 MQTTDatalogger/DataLoggerMqttJSON/arduino_secrets.h
 MQTTDatalogger/DataLoggerMqttJSONRTC/arduino_secrets.h
 */arduino_secrets.h
+.DS_Store
+Citizen_Cyberscience_summit_2012/.DS_Store
+Columbia_Brown_Center_2016/.DS_Store
